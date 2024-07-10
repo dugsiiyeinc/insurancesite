@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Navbar</title>
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"> -->
+</head>
+
+<body>
+
+    <header>
+        <div class="top-nav">
+            <div class="logo">
+                <img src="https://freebw.com/templates/insurance/img/icons/logo.png" alt="Insurance Logo">
+                <!-- <span>Insurance</span> -->
+            </div>
+            <div class="contact-info">
+                <div>
+                    <i class="fa fa-phone"></i>
+                    <span>Need Help? <br> 1-800-123-6889</span>
+                </div>
+                <div>
+                    <i class="fa fa-map-marker"></i>
+                    <span>8th floor, 379 Hudson St,<br> New York, NY 10018</span>
+                </div>
+                <div>
+                    <!-- <i class="fa fa-clock-o"></i> -->
+                    <i class="fa-regular fa-clock"></i>
+                    <span>07:30 am – 05:30 pm <br>Every Day</span>
+                </div>
+
+            </div>
+            <button>Get a Quote</button>
+        </div>
+        <nav>
+            <div class="humberger">
+                <!-- <i class='bx bx-menu' data-visible="true"></i> -->
+                <i class="fa-solid fa-bars burger" data-visible="true"></i>
+                <i class="fa-solid fa-xmark burger" data-visible="false"></i>
+                <!-- <i class='bx bx-x' data-visible="false"></i> -->
+            </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Get a Quote</a></li>
+                <li><a href="#">Our Company</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <!-- <div class="menu-flex"> -->
+
+            <div><i class="fa-solid fa-magnifying-glass abdi"></i></div>
+            <!-- </div> -->
+
+
+
+        </nav>
+
+        <ul class="mobile-menu" data-visible="false">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Get a Quote</a></li>
+            <li><a href="#">Our Company</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact Us</a></li>
+            <!-- <button ><a href="#" class="btn">SING UP</a></button> -->
+        </ul>
+    
+    </header>
+
+
+    <section class="products">
+        <div class="background">
+            <h2>Our Products</h2>
+
+        </div>
+      
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-1.jpg" alt="Car Insurance">
+                <h3>Car Insurance</h3>
+                <p>Insurance fraud puts an extra $70 on the price of every annual car insurance premium.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-2.jpg" alt="Life Insurance">
+                <h3>Life Insurance</h3>
+                <p>If you have a partner and children, then the two of you should think about life insurance.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-3.jpg" alt="Home Insurance">
+                <h3>Home Insurance</h3>
+                <p>We'll rebuild or repair your home if it's damaged or destroyed.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-4.jpg" alt="Travel Insurance">
+                <h3>Travel Insurance</h3>
+                <p>We can help you find the best plan for your trip and your budget.</p>
+            </div>
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-5.jpg" alt="Business Insurance">
+                <h3>Business Insurance</h3>
+                <p>In truth, there are certain forms of insurance that are an absolute requirement for all businesses.
+                </p>
+            </div>
+            <div class="product-item">
+                <img src="https://freebw.com/templates/insurance/img/product/product-6.jpg" alt="Landlord Insurance">
+                <h3>Landlord Insurance</h3>
+                <p>Our rental property insurance protects your property from damages.</p>
+            </div>
+        </div>
+    </section>
+ 
+    <div class="banner">
+        <span class="text">Find Information And Get Free Insurance Quotes.</span>
+        <button class="quote-button">GET A QUOTE</button>
+    </div>
+
+   
+    
+    <script>
+         const hamburger = document.querySelector('.humberger');
+        const mobileMenu = document.querySelector(".mobile-menu");
+        const icons = document.querySelectorAll(".burger");
+
+
+
+
+        hamburger.addEventListener("click", function (event) {
+            const isVisible = mobileMenu.getAttribute('data-visible');
+
+            if (isVisible == "false") {
+                // soo bandhig showing
+                mobileMenu.setAttribute('data-visible', "true");
+
+            }
+        });
+        document.addEventListener('click', function (e) {
+            let isVisible = mobileMenu.getAttribute('data-visible');
+            if (isVisible == 'true') {
+                if (isVisible == 'true' && !e.target.closest('.mobile-menu') && e.target !== icons[0]) {
+                    mobileMenu.setAttribute('data-visible', "false");
+
+
+                }
+
+            }
+
+        })
+      </script>
+</body>
+
+
+</html>
