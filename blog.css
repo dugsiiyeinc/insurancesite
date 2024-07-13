@@ -167,29 +167,21 @@ nav ul li a:hover {
 .post {
   
     display: flex;
-    /* flex-wrap: wrap; */
-    /* margin: 0 auto; */
-    /* gap: 20px; */
-    /* background: #fff; */
+    gap: 25px;
+
     margin-bottom: 20px;
     padding: 20px;
-    /* border-radius: 5px; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .post img {
     width: 370px;
     height: 278px;
-    /* max-width: 100%; */
-    /* border-radius: 5px; */
+   
 }
 
 .post-info {
-     /* width: 463px;
-    height: 255px;  */
-    padding: 0px 0px 0px  30px;
+
     font-size: 14px;
-    margin-top: -15px;
 }
 
 .post-info h2 {
@@ -236,11 +228,8 @@ nav ul li a:hover {
 }
 
 .categories, .ad, .archive {
-    /* background: #fff; */
     margin-bottom: 20px;
     padding: 20px;
-    /* border-radius: 5px; */
-    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
 }
 
 .ad{
@@ -381,9 +370,7 @@ margin: 20px;
     flex-wrap: wrap;
 
 }
-.main-content{
 
-}
 .post{
     display: flex;
     flex-wrap: wrap;
