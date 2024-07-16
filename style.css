@@ -321,15 +321,15 @@ nav ul li a:hover {
     margin-top: 300px;
 
 }
-.products .h1{
+.products h2{
     max-width: 1200px;
     height: auto;
     margin: 0 auto;
     font-size: 2rem;
+    font-weight: 600;
     margin: 0 auto;
     color: #0177d7;
     line-height: 40px;
-    font-weight: 500;
     text-transform: capitalize;
     /* background-color: #000; */
     padding: 10px;
