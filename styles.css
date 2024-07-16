@@ -7,11 +7,38 @@
      font-family: "poppins", sans-serif; 
       
  }
+ .slider{
+    width: 1280px;
+    height: 293px;
+
+ }
+ .slider_images{
+    display: flex;
+    gap: 12px;
+    
+ }
+ .slide_image{
+    width: 234px;
+    height: 107px;
+    border: 1px solid #e5e5e5;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+
+ }
+ .slide_image{
+    width: 207px;
+    height: 107px;
+    border: 1px solid #e5e5e5;
+    
+
+ }
  footer{
 
-    width: 1280px;
+   width: 1280px;
     height: 366px;
     background-color: rgb(102, 102, 102);
+    margin-top: 25px;
 
  }
  .main_footer{
@@ -27,7 +54,7 @@
     
 }
 .right_side_side_footer img{
-    width: 44%;
+    width: 44%
     
 }
 .links{
