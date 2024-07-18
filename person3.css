@@ -1,0 +1,514 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "open sans",Arial, Helvetica, sans-serif;
+}
+
+/* our products */
+
+.our-products{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.boxes{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 25px;
+margin: 15px;
+}
+img{
+    width: 100%;
+    line-height: 22px;
+    border-radius: 10px 20px / 20px 10px;
+}
+.our-products h3{
+    font-family: serif;
+    color:#298cdd;
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 36px;
+    text-transform: capitalize;
+}
+.boxes .box h2{
+    color:#0177d7 ;
+    line-height: 29px;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 15px;
+}
+.boxes .box p{
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    unicode-bidi: isolate;
+}
+
+
+/* landing page */
+
+.land-page{
+    margin-top: 3em;
+}
+.land-page .container{
+    position: relative;
+    background: url(https://freebw.com/templates/insurance/img/call-to-action/call-to-action-1.jpg)  center center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 90px;
+}
+.land-page .container::before{
+    background-color: rgba(10, 176, 218, 0.2);
+    margin-left: 100px;
+}
+
+.land-page .container h1{
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.land-page .container .button .input1{
+    padding: 15px 20px 15px 35px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.land-page .container .button .input2{
+    padding: 15px 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #f39c12;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    margin-left: 15px;
+}
+.land-page .container .button .input2:hover{
+    background-color: #c87f0a;
+}
+
+.land-page .container .button {
+    position: relative;
+    margin-top: 35px;
+}
+.land-page .container .button i{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    color:#666;
+    font-size: 14px;
+}
+
+
+
+
+/* what our customer say */
+
+.our-customer{
+    width: 1200px;
+    max-width: 100%;
+    margin: 5em auto;
+}
+
+.our-customer .boxes{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin-top: 2em;
+}
+.our-customer .boxes .box{
+    padding: 15px;
+    height: fit-content;
+    border: 1px solid #e5e5e5;
+    border-radius: 5px;
+}
+.our-customer h3{
+    font-weight: 500;
+    line-height: 40px;
+    font-size: 36px;
+    color: #0177d7;
+    font-style: normal;
+}
+.our-customer p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #BCBCBC;
+}
+.our-customer .client{
+    display: flex;
+}
+.our-customer .person-info{
+    margin-left: 20px;
+}
+.client img{
+    width: 57px;
+    height: 57px;
+    border-radius: 50%;
+}
+
+
+/* get a quote */
+
+.get-quote{
+    background: url(https://freebw.com/templates/insurance/img/backgrounds/heading-page-13.jpg) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    line-height: 35px;
+    color: #fff;
+    width: 100%;
+}
+.get-quote .container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.get-quote .container h1{
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.get-quote .container span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #e5dee1;
+}
+
+
+/* thisis for the form section */
+
+.quoteform{
+    background-color: #f0f5f8;
+}
+.quoteform .container{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.quote-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.quoteform .left-side{
+    width: 60%;
+}
+.quoteform .right-side{
+    width: 30%;
+}
+
+.form-input{
+    display: flex;
+    gap: 10px;
+}
+.form-input .sub-input select{
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: none;
+    text-align: left;
+}
+.form-input .sub-input2 input{
+    width: 100%;
+    padding: 12px 20px;
+   
+}
+.quoteform .heading{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    color: #333;
+    margin-top: 20px;
+    margin: 50px 0;
+}
+.quoteform .label{
+    color: #555;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 14px;
+    margin: 15px 0;
+}
+.quoteform .form-input input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 13px 17px;
+    font-size: 14px;
+    color: #666 !important;
+    width: 100%;
+}
+.quoteform .form-input input::placeholder{
+   font-size: 14px;
+   color: #666;
+   font-weight: 400;
+   line-height: 22px;
+}
+.quote-form .form-item{
+    float: left;
+    padding-right: 20px;
+}
+.quoteform .left-side .button-form button{
+    margin-top: 100px;
+    display: block;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
+.quoteform .left-side .button-form button:hover{
+    background-color: #c27904;
+    color: #fff;
+    transition: all .3s !important;
+}
+
+
+/* right side  */
+
+.quoteform .right-side{
+    float: left;
+    margin: 180px 50px;
+}
+.quoteform .right-side .icon i{
+    background-color: #0177d7;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+   border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.quoteform .right-side .box{
+    display: flex;
+}
+.quoteform .right-side .box .sub-box{
+    margin: 0 20px;
+}
+.quoteform .right-side h4{
+    font-size: 18px;
+    color: #555;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    line-height: 1.1;
+    font-family: inherit;
+    text-transform: capitalize;
+}
+.quoteform .right-side p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+
+/* this is for contact section */
+
+.contact{
+    background-color: #fff;
+    padding: 65px 0 100px;
+   
+}
+.contact .container{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.contact .left-side{
+    width: 60%;
+    margin-right: 50px;
+}
+.contact .right-side{
+    width: 33%;
+}
+.contact .container .heading{
+    font-size: 20px;
+    font-weight: 700;
+    color: #333;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.contact .container .group-input{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.contact .container .group-input input{
+    width: 100%;
+    border-radius: 3px;
+    padding: 13px 20px;
+    border: 1px solid #ccc;
+    outline: none;
+    text-transform: capitalize;
+}
+
+.contact .container .text-area textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    min-height: 150px;
+    padding: 13px 20px;
+    margin-top: 35px;
+    outline: none;
+}
+.contact .container .action-button button{
+    margin-top: 100px;
+    display: block;
+    background-color: #f39c12;
+    color: #fff;
+    padding: 15px 35px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 3px;
+}
+.contact .container .action-button button:hover{
+    background-color: #c27904;
+    color: #fff;
+    transition: all .3s !important;
+}
+
+
+/* right side for contact */
+
+.contact .container .right-side{
+    padding-left: 20px;
+}
+.contact .container .right-side p{
+    margin: 0 0 10px;
+    font-size: 14px;
+    color: #666;
+}
+.contact .container .contact-list li{
+    line-height: 2.5;
+    font-size: 14px;
+    list-style: none;
+    color: #666;
+}
+.contact .container .contact-list i{
+   padding-right: 10px;
+}
+
+
+
+
+@media only screen and (max-width:480px) {
+    .contact .container .group-input{
+       grid-template-columns: 1fr;
+    }
+
+}
+
+
+@media only screen and (max-width:640px){
+   .our-customer .boxes{
+        grid-template-columns: 1fr;
+    }
+    .our-products .boxes{
+        grid-template-columns: 1fr;
+    }
+    .land-page .container{
+        background-position: right center;
+        background-size: cover;
+    }
+    .land-page .container .button .input1{
+        margin-bottom: 10px;
+    }
+    .quote-form{
+        grid-template-columns: 1fr;
+    }
+    .quoteform .left-side{
+        width: 100%;
+        
+    }
+    .quoteform .right-side{
+        width: 100%;
+    }
+    .quoteform .container{
+        flex-direction: column;
+        width: 90%;
+    }
+
+    /* responsive for contact */
+    .contact .container{
+        flex-direction: column;
+        margin: 0 15px;
+    }
+    .contact .container .left-side{
+        width: 100%;
+    }
+    .contact .container .right-side{
+        width: 100%;
+    }
+
+}
+@media only screen and (min-width:641px) and (max-width:1024px){
+    .our-products .boxes{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .our-customer .boxes{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .quoteform .container{
+        width: 500px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact .container{
+        margin: 0 15px;
+    }
+}
+@media only screen and (min-width:1025px){
+    .our-products .boxes{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .our-customer .boxes{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .quoteform .container{
+        width: 90%;
+    }
+    .quoteform .container{
+        width: 1000px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .contact .container{
+        margin: 0 15px;
+    }
+}
+    
+
+
+
