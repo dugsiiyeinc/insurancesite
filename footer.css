@@ -9,9 +9,10 @@ footer{
   background-color: #2e363a;
 }
 footer .logo{
-  max-width: 1200px;
+  max-width: 300px;
   margin: 0px  115px;
   margin-top: 50px;
+  
   
 
 }
@@ -33,7 +34,7 @@ footer .container{
   justify-content: space-between;
   color: white;
   border-bottom: 1px solid rgb(118, 116, 116);
-  /* background-color: #fff; */
+ 
 }
 .first-blog{
   /* margin-top: 50px; */
@@ -63,8 +64,7 @@ footer .line{
 }
 
 /* contact informaton  */
-.contact {
-
+.contact1 {
   margin-bottom: 40px;
   font-size: 16px;
   line-height: 26px;
