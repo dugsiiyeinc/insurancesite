@@ -1,0 +1,65 @@
+
+
+
+
+
+.footer {
+
+    background-color: #4d4949;
+    padding: 65px;
+    margin-top: 15px;
+   width: 100%;
+   font-size: 25px;
+   line-height: 40px;
+   margin-top: 290px;
+   height: 100%;
+  
+
+    
+  }
+ 
+  
+  .row {
+    display: flex;
+    gap: 30px;
+    
+  }
+  
+  ul {
+    list-style-type: square;
+    color: white;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  ul li:hover {
+    background-color: rgb(96, 96, 221);
+  }
+  
+  .links_content {
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+  
+    list-style-type: none;
+  }
+  
+  @media (max-width: 760px) {
+      .form_sections {
+          visibility: hidden;
+         
+        }
+        .slider_images{
+          visibility: hidden;
+  
+        }
+        .row{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+      }
+   
+  }
+  /*  footer section css end here*/
