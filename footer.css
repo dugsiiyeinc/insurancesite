@@ -1,23 +1,28 @@
+
+
+
+
+
 .footer {
 
     background-color: #4d4949;
     padding: 65px;
     margin-top: 15px;
-   
+   width: 100%;
+   font-size: 25px;
+   line-height: 40px;
+   margin-top: 290px;
+   height: 100%;
   
-   
-    width: 100%;
+
     
   }
-  .container2 {
-    align-items: center;
-    justify-content: center;
-    padding: 20px;
-  }
+ 
   
   .row {
     display: flex;
-    gap: 25px;
+    gap: 30px;
+    
   }
   
   ul {
