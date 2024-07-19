@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: "poppins", sans-serif;
+  }
+  .container {
+    /* max-width: 1120px; */
+    width: 100%;
+    height: auto;
+    
+   
+  }
+  
+  /* slider section css starts here */
+  
+  .slider {
+    /* width: 1100px; */
+    width: 100%;
+    height: auto;
+    margin: 25px;
+  
+    
+    /* background-color: #0177d7; */
+  }
+  .slider_images {
+    width: 95%;
+    height: auto;
+    /* background-color: #4d4949; */
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+  }
+  .slide_image {
+    width: 234px;
+    height: 107px;
+    border: 1px solid #e5e5e5;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  .slide_image {
+    width: auto;
+    height: 107px;
+    border: 1px solid #e5e5e5;
+  }
+  /*  slider section css end here*/
+  
+  /*  section 2 forms section css starts here*/
+  
+  .contact_sections{
+      /* background-color: #0177d7; */
+      width: 100%;
+      height: auto;
+      margin-bottom: 155px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/19171623/pexels-photo-19171623/free-photo-of-scenic-view-of-a-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+  }
+  
+  .form_sections {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+    /* background-color: violet; */
+  
+  }
+  
+  
+  form {
+    background: #0177d7;
+    height: 600px;
+    width: 500px;
+    border: 1px solid gray;
+   
+    
+    
+   
+  }
+  .form_icon {
+    width: auto;
+    height: auto;
+  
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 25px;
+  }
+  
+  .form_icon i {
+    width: 36px;
+    height: 36px;
+    padding: 15px;
+  
+    color: white;
+    margin-bottom: 5px;
+  }
+  .form_icon p {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    color: white;
+    margin-top: 5px;
+    width: 380px;
+    height: 19px;
+  }
+  .form_details {
+    width: 450px;
+    height: 988px;
+    text-align: center;
+    justify-content: center;
+  }
+  .form_input {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 82px;
+    margin: 15px;
+    padding: 140, 140px;
+    border: none;
+  }
+  .form_input input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+  }
+  
+  button {
+    background-color: #f39c12;
+    width: 152px;
+    height: 52px;
+    padding: 15px, 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-top: 35px;
+  }
+  label {
+    font-weight: 700;
+    line-height: 22px;
+    border: none;
+  
+    color: rgb(255, 255, 255);
+  }
+  #text_area {
+    justify-content: center;
+    align-items: center;
+  }
+  .contact_section2 {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid black;
+    padding: 45px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact_section2_info i {
+    font-size: 55px;
+  }
+  .contact_section2_info p {
+    font-size: 15px;
+  }
+  .contact_section2_adress {
+    margin-top: 15px;
+  }
+  table {
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  
+  /*  forms section css end here*/
+  
+  /*  footer  section css starts here*/
+  
+  .footer {
+  
+    background-color: #4d4949;
+    padding: 65px;
+    margin-top: 15px;
+    position: fixed;
+    bottom: 0;
+   
+    width: 100%;
+    
+  }
+  .container2 {
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .row {
+    display: flex;
+    gap: 25px;
+  }
+  
+  ul {
+    list-style-type: square;
+    color: white;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  ul li:hover {
+    background-color: rgb(96, 96, 221);
+  }
+  
+  .links_content {
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+  
+    list-style-type: none;
+  }
+  @media (max-width: 1110px){
+    .slider_images .img2 {
+      display: none;
+    }
+    .form_sections {
+      display: flex;
+      flex-direction: column;
+    }
+  
+  
+  }
+  @media (max-width: 760px) {
+      /* .form_sections {
+          visibility: hidden;
+         
+        }
+        .slider_images{
+          visibility: hidden;
+  
+        } */
+        .row{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+      }
+      .slider_images .img4{
+        display: none;
+  
+      }
+   
+  }
+  @media (max-width: 550px){
+    .form_section1 form div{
+      width: 80%;
+      height: auto;
+    }
+    .form_section1 form{
+      width: 80%;
+    }
+    .form_section1 form div textarea{
+      width: 80%;
+      height: auto;
+    }
+   
+  
+  }
+  @media (max-width: 490px){
+  .form_section1 .form_icon p {
+    /* font-size: 11px; */
+    width: 200px;
+    height: auto;
+  }
+  
+  }
+  /*  footer section css end here*/
+  
+  
+  
