@@ -273,8 +273,15 @@ ul li:hover {
     width: 80%;
     height: auto;
   }
-
  
+
+}
+@media (max-width: 490px){
+.form_section1 .form_icon p {
+  /* font-size: 11px; */
+  width: 200px;
+  height: auto;
+}
 
 }
 /*  footer section css end here*/
