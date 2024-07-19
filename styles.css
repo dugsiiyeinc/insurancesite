@@ -21,6 +21,8 @@ body {
   width: 100%;
   height: auto;
   margin: 25px;
+
+  
   /* background-color: #0177d7; */
 }
 .slider_images {
@@ -49,14 +51,15 @@ body {
 /*  section 2 forms section css starts here*/
 
 .contact_sections{
-    background-color: #0177d7;
+    /* background-color: #0177d7; */
     width: 100%;
     height: auto;
     margin-bottom: 155px;
+      background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/19171623/pexels-photo-19171623/free-photo-of-scenic-view-of-a-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load') ;
+      background-size: cover;
+      background-repeat: no-repeat;
 }
-iframe{
-  margin-top: 1000px;
-}
+
 .form_sections {
   max-width: 900px;
   margin: 0 auto;
@@ -64,14 +67,15 @@ iframe{
   justify-content: space-between;
   border-radius: 15px;
   /* background-color: violet; */
+
 }
 .form_section1{
-  width: 100%;
-  height: 100%;
+  /* width: 100%; */
+  /* height: 100%; */
  /* background-color: #f39c12;  */
 }
 .form_section2{
-  background-color: aqua;
+  /* background-color: aqua; */
 }
 form {
   background: #0177d7;
@@ -226,22 +230,52 @@ ul li:hover {
 
   list-style-type: none;
 }
+@media (max-width: 1110px){
+  .slider_images .img2 {
+    display: none;
+  }
+  .form_sections {
+    display: flex;
+    flex-direction: column;
+  }
 
+
+}
 @media (max-width: 760px) {
-    .form_sections {
+    /* .form_sections {
         visibility: hidden;
        
       }
       .slider_images{
         visibility: hidden;
 
-      }
+      } */
       .row{
         display: flex;
         flex-direction: column;
         gap: 15px;
     }
+    .slider_images .img4{
+      display: none;
+
+    }
  
+}
+@media (max-width: 550px){
+  .form_section1 form div{
+    width: 80%;
+    height: auto;
+  }
+  .form_section1 form{
+    width: 80%;
+  }
+  .form_section1 form div textarea{
+    width: 80%;
+    height: auto;
+  }
+
+ 
+
 }
 /*  footer section css end here*/
 
