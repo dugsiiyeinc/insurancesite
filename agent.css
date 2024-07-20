@@ -79,6 +79,10 @@ button {
 button:hover {
     background-color: #e6950c;
 }
+button a { 
+    text-decoration: none;
+
+}
 
 nav {
     height: 500px;
@@ -235,7 +239,7 @@ nav ul li a:hover {
     font-weight: 700;
 }
 .team-member h2:hover{
-    color: rgb(243, 156, 18;)
+    color: rgb(243, 156, 18);
 }
 
 
@@ -434,4 +438,7 @@ margin: 20px;
     .section1 .h1 {
         font-size: 1.5rem;
     }
+    button{
+        display: none;
+      }
 }
