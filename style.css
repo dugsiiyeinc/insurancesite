@@ -80,6 +80,10 @@ button {
 button:hover {
     background-color: #e6950c;
 }
+button a { 
+    text-decoration: none;
+
+}
 
 nav {
     height: 500px;
@@ -318,7 +322,7 @@ nav ul li a:hover {
   .products {
     width: 100%;
     height: auto;
-    margin-top: 300px;
+    margin-top: 200px;
 
 }
 .products h2{
@@ -443,6 +447,7 @@ nav ul li a:hover {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin: 0px auto;
+        text-align: center;
     }
 
 }

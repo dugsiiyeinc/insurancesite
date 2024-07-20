@@ -8,6 +8,9 @@ footer{
 
   background-color: #2e363a;
 }
+img{
+  width: 100%;
+}
 footer .logo{
   max-width: 300px;
   margin: 0px  115px;
@@ -65,17 +68,19 @@ footer .line{
 
 /* contact informaton  */
 .contact1 {
+  color: #666;
   margin-bottom: 40px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
 
+
 }
-.contact-info p {
+.contact-info1 p {
   padding: 8px 0px;
  
 }
-.contact .contact-info p{
+.contact1 .contact-info p{
   /* margin-bottom: 15px; */
   color: #999999;
 }
@@ -176,6 +181,7 @@ footer .sub-footer p{
   .container{
       display: flex;
       flex-direction: column;
+     
       width: 100%;
       height: auto; 
       /* background: white; */
