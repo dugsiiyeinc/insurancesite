@@ -258,6 +258,7 @@ nav ul li a:hover {
     }
     .container{
         margin-top: 50px;
+        text-align: center;
         
     }
 
@@ -362,6 +363,12 @@ margin: 20px;
         grid-template-columns: repeat(1, 1fr);
         margin: 0px auto;
     }
+    .product-item h3 p{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+
+    }
     
     .banner {
         display: flex;
@@ -375,10 +382,10 @@ margin: 20px;
         font-size: 13px;
     }
 }
-/* @media (max-width: 379px) {
-    .banner{
-    
-    }
+@media (max-width: 379px) {
+  button{
+    display: none;
+  }
   
-} */
+}
 

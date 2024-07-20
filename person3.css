@@ -25,6 +25,14 @@ img{
     line-height: 22px;
     border-radius: 10px 20px / 20px 10px;
 }
+.get-quote .heading{
+    width: 100%;
+    height: auto;
+}
+.sub-heading{
+    width: 100%;
+    height: auto;
+}
 .our-products h3{
     font-family: serif;
     color:#298cdd;
@@ -292,7 +300,7 @@ img{
 
 .quoteform .right-side{
     float: left;
-    margin: 180px 50px;
+    margin: 180px 10px;
 }
 .quoteform .right-side .icon i{
     background-color: #0177d7;
