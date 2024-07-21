@@ -90,6 +90,3 @@ Contributions are what make the open-source community such an amazing place to l
     <img src="https://www.drupal.org/files/styles/grid-3-2x/public/project-images/font_awesome_logo.png?itok=26GjxSRO" alt="Google Fonts" width="40" height="40" style="margin-right: 30px;" />
     <img src="https://brandingcompass.com/wp-content/uploads/2022/10/Google_Fonts_logo-no-whitespace-1024x148.png" alt="Font Awesome" width="130" height="40" style="margin-right: 20px;" />   
 </p>
-
-## License 📜
-Distributed under the MIT License. 
