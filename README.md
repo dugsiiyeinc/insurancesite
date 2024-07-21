@@ -10,8 +10,7 @@ Welcome to the Insurance Website Project! This project is a web-based applicatio
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Contact](#contact)
-
+- 
 ## Features ✨
 
 ### 1. Responsive Navigation Bar 📱
@@ -93,31 +92,4 @@ Contributions are what make the open-source community such an amazing place to l
 </p>
 
 ## License 📜
-Distributed under the Dugsiiye License. 
-
-## Contact Us 📞
-
-We’re here to assist you! Feel free to get in touch through any of the following methods:
-
-**Email:**  
-- **General Inquiries:** [insurance@dugsiiye.com](mailto:insurance@dugsiiye.com)  
-- **Support:** [support.insurance@dugsiiye.com](mailto:support.insurance@dugsiiye.com)  
-
-**Phone:**  
-- **Customer Support:** (+1) 96 716 6879  
-- **Sales Department:** (+1) 96 716 6880  
-
-**Address:**  
-Insurance Company HQ  
-1234 Insurance Lane, Suite 100  
-Insurance City, IN 12345  
-USA  
-
-**Follow Us on Social Media:**  
-- [Facebook](https://facebook.com/yourcompany) 👍  
-- [Twitter](https://twitter.com/yourcompany) 🐦  
-- [LinkedIn](https://linkedin.com/company/yourcompany) 🔗  
-- [Instagram](https://instagram.com/yourcompany) 📸  
-
-
----
+Distributed under the MIT License. 
