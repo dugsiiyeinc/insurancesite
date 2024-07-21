@@ -73,7 +73,7 @@ footer .line{
 /* contact informaton  */
 .contact1 {
   color: #666;
-  margin-bottom: 40px;
+  margin-bottom: -40px;
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;

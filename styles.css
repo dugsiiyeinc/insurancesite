@@ -20,7 +20,7 @@
     /* width: 1100px; */
     width: 100%;
     height: auto;
-    /* margin: 25px; */
+    
   
     
     /* background-color: #0177d7; */
@@ -60,6 +60,7 @@
         background-image: linear-gradient(rgba(0, 0, 0, 0.10), rgba(0, 0, 0, 0.9)), url('https://images.pexels.com/photos/19171623/pexels-photo-19171623/free-photo-of-scenic-view-of-a-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load') ;
         background-size: cover;
         background-repeat: no-repeat;
+        padding: 25px 0;
   }
   
   .form_sections {
@@ -177,7 +178,7 @@
     font-size: 15px;
     /* margin-top: 15px; */
     border: 1px solid black;
-    padding: 25px;
+    padding: 10px 20px;
     /* justify-content: center; */
     /* align-items: center; */
   }
