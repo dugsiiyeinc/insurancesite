@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: #b8b4b4;
 }
 
 footer{
@@ -27,7 +28,7 @@ footer .title{
   font-size: 24px;
   line-height: 26px;
   font-weight: 500;
-  color: #999999;
+  color: #b8b4b4;
   margin: 20px 0 30px;
   line-height: 20px;
 }
@@ -57,7 +58,7 @@ footer .container3{
 }
 .service-list ul li{
   list-style-type: square;
-  color: #666;
+  color: #b8b4b4;
   margin: 20px 0;
 }
 .service-list ul li:hover{
