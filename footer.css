@@ -2,10 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: #b8b4b4;
 }
 
 footer{
+  color: #e8e1e1;
 
   background-color: #2e363a;
 }
@@ -28,7 +28,7 @@ footer .title{
   font-size: 24px;
   line-height: 26px;
   font-weight: 500;
-  color: #b8b4b4;
+  color: #bcb7b7;
   margin: 20px 0 30px;
   line-height: 20px;
 }
@@ -58,7 +58,7 @@ footer .container3{
 }
 .service-list ul li{
   list-style-type: square;
-  color: #b8b4b4;
+  color: #bcb7b7;
   margin: 20px 0;
 }
 .service-list ul li:hover{
@@ -72,7 +72,7 @@ footer .line{
 
 /* contact informaton  */
 .contact1 {
-  color: #666;
+  color: #bcb7b7;
   margin-bottom: -40px;
   font-size: 16px;
   line-height: 26px;
